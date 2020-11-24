@@ -170,7 +170,7 @@ async def echo(bot, update):
                 message_id=a.message_id,
                 disable_web_page_preview=True
             )
-    else:
+ else:
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.REPLY_TO_DOC_FOR_RENAME_FILE,
