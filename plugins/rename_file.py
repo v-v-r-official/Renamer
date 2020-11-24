@@ -159,10 +159,10 @@ async def echo(bot, update):
                     c_time
                 )
             )
-            try:
+       try:
                 os.remove(new_file_name)
                 os.remove(thumb_image_path)
-            except:
+     except:
                 pass
             await bot.edit_message_text(
                 text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG,
