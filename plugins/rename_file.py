@@ -63,7 +63,7 @@ async def echo(bot, update):
             revoke=True
         )
         return
-  TRChatBase(update.from_user.id, update.text, "rename")
+    TRChatBase(update.from_user.id, update.text, "rename")
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
         if len(file_name) > 64:
@@ -126,7 +126,7 @@ async def echo(bot, update):
                 thumb_image_path = thumb_image_path
             else:
                 thumb_image_path = None
-            else:
+        else:
                 width = 0
                 height = 0
                 metadata = extractMetadata(createParser(thumb_image_path))
@@ -144,8 +144,8 @@ async def echo(bot, update):
                 img.resize((320, height))
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
-            c_time = time.time()
-            await bot.send_document(
+                c_time = time.time()
+                await bot.send_document(
                 chat_id=update.chat.id,
                 document=new_file_name,
                 thumb=thumb_image_path,
