@@ -126,7 +126,7 @@ async def echo(bot, update):
                 thumb_image_path = thumb_image_path
             else:
                 thumb_image_path = None
-            else:
+        else:
                 width = 0
                 height = 0
                 metadata = extractMetadata(createParser(thumb_image_path))
