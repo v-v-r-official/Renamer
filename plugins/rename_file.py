@@ -54,7 +54,7 @@ async def echo(bot, update):
             )
             return
         except Exception:
-            await update.reply_text("Something Wrong. Contact my Support Group")
+            await update.reply_text("Something Wrong. Contact @VkBotsSupportBot")
             return
     if update.from_user.id in Config.BANNED_USERS:
         await bot.delete_messages(
