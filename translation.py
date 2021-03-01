@@ -11,7 +11,7 @@ Feel Free Ask Any Doubts In My Support Group
     UPGRADE_TEXT = "CONTACT @VkBotsSupportBot"
     DOWNLOAD_START = "Give Me Some Time Bruh!!(〒﹏〒)"
     UPLOAD_START = "Hurray... Completed Downloading(;ŏ﹏ŏ)"
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry WTF Do You Think! I'll Upload It?"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > © @VKPROJECTS **"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
     NOT_AUTH_USER_TEXT = "CONTACT @VkBotsSupportBot"
